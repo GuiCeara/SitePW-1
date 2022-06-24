@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: gray;
+}  
+
+.Imagem{
+    margin: 0;
+}
+
+#homeIMG{
+   width: 100%;
+}
+nav{
+    background-color: black;
+    position: sticky;
+    height: 90px;
+}
+
+#redBtn{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+}
+
+#logoPosition{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+
+#LOGO{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.button {
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
